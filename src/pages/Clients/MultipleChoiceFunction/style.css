@@ -1,0 +1,124 @@
+.main__2_tD {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0;
+    z-index: 0;
+    min-height: 0;
+}
+.main__2_tD .loading__1XBq {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: white;
+    z-index: 1;
+}
+.content__3fR6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 0;
+    z-index: 0;
+}
+.content__3fR6 > div {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-height: 0;
+}
+.container__14Na {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.container__14Na[data-is-vertical="true"] {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.side-tools-wrapper__1TS9,
+.editor-wrapper__1ru6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.side-tools-wrapper__1TS9,
+.resize-bar__2_sK {
+    z-index: 1;
+}
+.css-1100co3-Container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+}
+.css-1gd46d6-Container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 1 0 auto;
+}
+.css-jtoecv {
+    flex: 1 1 auto;
+    display: flex;
+    overflow: hidden;
+}
+.css-11zaw7c-TabView {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.css-5wdlwo-TabViewHeader {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    background: rgb(250, 250, 250);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.css-1lexzqe-TabHeaderContainer {
+    max-width: none;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+}
+.css-19j86kk-TabHeader {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+    position: relative;
+    background: rgb(255, 255, 255);
+    flex: 0 1 140px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    color: rgb(55, 71, 79);
+    cursor: pointer;
+    z-index: 1;
+    height: 40px;
+    font-size: 12px;
+    max-width: 160px;
+}

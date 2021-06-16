@@ -1,0 +1,116 @@
+.jLxbtT {
+    perspective: 1000px;
+}
+.cA-dKST {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    right: 0px;
+    border-radius: 10px;
+    /* background: rgba(15, 14, 71, 0.3); */
+    /* box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset; */
+    backdrop-filter: blur(40px);
+    cursor: pointer;
+}
+.kfMDDp {
+    position: relative;
+    margin: 0px;
+    top: 10px;
+}
+
+/* .jLxbtT:hover .bWFUQU {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.25s;
+    transform: none;
+} */
+
+.bWFUQU {
+    position: absolute;
+    max-width: 260px;
+    margin-top: 10px;
+    padding: 20px;
+    right: 0px;
+    background: rgba(15, 14, 71, 0.3);
+    box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
+    backdrop-filter: blur(40px) brightness(80%) saturate(150%);
+    border-radius: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    transform-origin: center top;
+    /* transform: rotateX(-20deg) translateY(-5px); */
+    transform: skewY(-5deg) rotate(5deg) translateY(-30px);
+}
+.FxJgk {
+    height: 44px;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hLxpEF {
+    display: inline-flex;
+}
+.jDIfTu {
+    margin: auto;
+}
+.eTYfuI {
+    font-style: normal;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 130%;
+    color: rgb(255, 255, 255, 0.7);
+    text-align: center;
+    margin: auto auto auto 10px;
+}
+.hLxpEF {
+    display: inline-flex;
+}
+.hYpNMl {
+    width: 180px;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    opacity: 0.2;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+    .bWFUQU {
+        transform: skewY(-5deg) rotate(5deg) translateY(-30px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bWFUQU {
+        width: 57vh;
+        position: fixed;
+        height: 100vh;
+        right: -20px;
+        max-width: none;
+        transform: translateY(-110%);
+    }
+    .hYpNMl {
+        width: 100%;
+    }
+    /*  transform: translateY(0); */
+}
+.visibility-scroll-mobile {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.25s;
+    transform: translateY(0);
+    border-radius: 0;
+}
+.hidden-scroll {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-110%);
+}
+.visibility-scroll {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.25s;
+    transform: none;
+}

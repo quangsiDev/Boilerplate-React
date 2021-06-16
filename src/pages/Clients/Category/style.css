@@ -1,0 +1,62 @@
+.question-filter-base .question-filter-hr {
+    margin-top: -5px;
+    margin-bottom: 28px;
+}
+.separator-op {
+    border-bottom: 1px solid #e4eaf1;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f7f7f7));
+    background: -o-linear-gradient(white, #f7f7f7);
+    background: linear-gradient(white, #f7f7f7);
+    height: 7px;
+    z-index: -3;
+}
+.separator_left_mask {
+    margin-top: -7px;
+    margin-left: 0;
+    width: 100px;
+    height: 10px;
+    z-index: -2;
+    margin-bottom: -10px;
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(rgba(255, 255, 255, 0)));
+    background: -o-linear-gradient(left, #ffffff, rgba(255, 255, 255, 0));
+    background: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0));
+}
+.separator_right_mask {
+    float: right;
+    margin-top: -1px;
+    width: 100px;
+    height: 10px;
+    margin-bottom: -10px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(#ffffff));
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0), #ffffff);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
+}
+.search-bar-control > div:nth-child(2) {
+    padding-right: 15px;
+}
+.filterTags .filter-dropdown-menu.dropdown-menu {
+    right: 15px;
+}
+.filter-dropdown-menu.dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 5px;
+}
+.filter-dropdown-menu-item {
+    cursor: pointer;
+    cursor: hand;
+    padding-top: 8px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    max-width: 236px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+    display: block;
+}
+.round {
+    border-radius: 1020px;
+}
+
+/* ================================================= */
